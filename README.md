@@ -1,5 +1,7 @@
 # Despooler-Respooler
 
+### EVERYTHING IN THIS REPO EXCEPT FOR THIS LINE WAS DONE BY CLAUDE.AI. I JUST ASKED FOR A FILAMENT REWIND MACHINE
+
 A 3D-printable machine that rewinds a 1 kg filament spool onto an empty spool while you're away. It has three jobs:
 
 - **Fix bad spool endings.** The last few metres of a spool are tightly curled, clipped into the hub, and often have crossed wraps that ruin long prints. Rewinding moves that end to the outside of the new spool, and running the whole spool through clears any crossovers.
