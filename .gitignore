@@ -1,0 +1,7 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Generated CAD exports (rebuild with: python -m parts.<name> / assembly.py)
+respooler/out/
