@@ -10,6 +10,8 @@ A 3D-printable machine that rewinds a 1 kg filament spool onto an empty spool wh
 
 The whole design is parametric Python ([CadQuery](https://github.com/CadQuery/cadquery)). Each subsystem is generated from one shared parameter file and checked automatically for collisions, bed fit and gear mesh.
 
+**Just want to print it?** The STL files, already oriented for printing, are in [`respooler/out/stl/`](respooler/out/stl/). The full assembly is [`respooler/out/step/respooler_assembly.step`](respooler/out/step/respooler_assembly.step). Read [Before you print](#before-you-print) first.
+
 > **Status:** the design is complete and passes every automated check, but it has **not been printed or tested** yet. Expect to tune fits (see [Before you print](#before-you-print)).
 
 ## How it works
@@ -70,7 +72,7 @@ cd respooler
 ../.venv/Scripts/python.exe -m checks.bom       # regenerate docs/BOM.md and docs/print_guide.md
 ```
 
-Generated STL/STEP files go to `respooler/out/`, which is not tracked. STL files come out already oriented for printing, and every part fits a 220 × 220 mm bed. The traverse export takes about 3 minutes because of the cam groove.
+Ready-made STL and STEP files are included in [`respooler/out/`](respooler/out/), and the generator scripts overwrite them. STL files are already oriented for printing, and every part fits a 220 × 220 mm bed. The traverse export takes about 3 minutes because of the cam groove.
 
 ## Before you print
 
